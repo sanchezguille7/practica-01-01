@@ -11,3 +11,7 @@ set -x
 
 #instalamos el servidor web Apache
 apt install apache2 -y
+
+
+#INstalar  el sistema gestor de datos MySQL
+apt install mysql-server -y
