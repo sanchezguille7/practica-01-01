@@ -30,3 +30,9 @@ cp ../conf/000-default.conf /etc/apache2/sites-available
 
 #Reiniciamos servicio
 systemctl restart apache2
+
+#Copimos el aarchivo de prueba de php
+cp ../php/index.php /var/www/html
+
+# Modificamos el propietario
+chown -R www-data:www-data /var/www/html
