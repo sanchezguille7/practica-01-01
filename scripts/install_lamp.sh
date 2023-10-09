@@ -7,7 +7,7 @@ set -x
 apt update
 
 # actualizamos los paquetes 
-apt upgrade -y
+#apt upgrade -y
 
 #instalamos el servidor web Apache
 #apt install apache2 -y
@@ -36,3 +36,6 @@ cp ../php/index.php /var/www/html
 
 # Modificamos el propietario
 chown -R www-data:www-data /var/www/html
+
+
+
